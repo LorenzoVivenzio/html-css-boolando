@@ -6,9 +6,9 @@
 img{
     max-width: 100%;
 }
-.bs{
+/* .bs{
     border: 1px solid black;
-}
+} */
 a{
     text-decoration: none;
     color: inherit;
@@ -55,6 +55,7 @@ li{
     width: 30%;
     margin-top: 20px;
     position: relative;
+    margin-bottom: 100px;
 }
 .card{
     background-image: cover;
@@ -85,4 +86,28 @@ li{
     position: absolute;
     left: 0;
     bottom: 30px;
+}
+.descrition{
+    position: absolute;
+    left: 0;
+}
+.red-n{
+    color: red;
+    font-family: sans-serif;
+}
+.marca{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.line{
+    text-decoration: line-through;
+}
+.text-bold{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.color-gray{
+    color: gray;
 }
