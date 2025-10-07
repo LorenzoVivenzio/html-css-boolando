@@ -54,8 +54,35 @@ li{
 .col-30{
     width: 30%;
     margin-top: 20px;
+    position: relative;
 }
 .card{
     background-image: cover;
 }
-
+.sconto {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+.sale{
+    height: 50px;
+    background-color: red;
+    color: white;
+    padding: 3px 10px;
+}
+.sostenibilità{
+    position: absolute;
+    bottom: 30px;
+    left: 56px;
+}
+.green{
+    height: 50px;
+    background-color: lightgreen;
+    padding:3px 10px;
+    color: white;
+}
+.bot-left{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+}
